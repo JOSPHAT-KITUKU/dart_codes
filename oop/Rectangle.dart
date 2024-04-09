@@ -40,9 +40,8 @@ class Rectangle{
 }
 
 void main(){
-    Rectangle rect = Rectangle(14.0, -3);
+    Rectangle rect = Rectangle(14.0, 3);
 
-    rect.length = 3;
 
     var result = rect.areaRect();
     print("The are of the Rectangle is: ${result}");
